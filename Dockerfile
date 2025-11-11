@@ -11,5 +11,5 @@ COPY app.py .
 RUN echo "Working directory2:${pwd}"
 
 #Run the python file
-CMD ["PYTHON", "app.py"]
+CMD ["python", "app.py"]
 
